@@ -1,0 +1,14 @@
+Preprocess:
+-Rename duplicates
+-Remove seqs below 75% of total gene length
+-Plot coverage and exclude samples below 95%coverage
+
+-Mafft the filtered fastas
+
+Filtermuts:
+-Read in spredsheet with mutations, and mafft aligned.
+-Write out fasta of only samples with mutations
+-Get piechart of mutations frequency
+
+Phylotree:
+-Make tree of the samples with mutations.
